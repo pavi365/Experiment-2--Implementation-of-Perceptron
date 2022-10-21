@@ -24,13 +24,14 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 
 
 ## ALGORITHM:
-    1) Importing the libraries
+
+ 1) Importing the libraries
     
-    2) Importing the dataset
+ 2) Importing the dataset
     
-    3) Plot the data to verify the linear separable dataset and consider only two classes
+ 3) Plot the data to verify the linear separable dataset and consider only two classes
     
-    4) Convert the data set to scale the data to uniform range by using Feature scaling
+ 4) Convert the data set to scale the data to uniform range by using Feature scaling
 
 Split the dataset for training and testing
 Define the input vector ‘X’ from the training dataset
@@ -111,7 +112,6 @@ print("accuracy = " , accuracy_score(classifier.predict(x_test), y_test)*100)
 
 ## OUTPUT:
 
-```
 <img width="493" alt="NN 2" src="https://user-images.githubusercontent.com/115135775/197102110-40526701-af33-4abe-8bde-1b932f20a43a.png">
 
 <img width="320" alt="nn 1" src="https://user-images.githubusercontent.com/115135775/197102166-451a7fdb-ce39-4fcb-a952-b00ad89c0a36.png">
@@ -122,7 +122,7 @@ print("accuracy = " , accuracy_score(classifier.predict(x_test), y_test)*100)
 
 <img width="211" alt="nn 5" src="https://user-images.githubusercontent.com/115135775/197102263-ced0f80b-4d2e-482b-86d1-b1fe293644b0.png">
 
-```
+
 ## RESULT :
 
 Thus a perceptron for classification is implemented using python.
